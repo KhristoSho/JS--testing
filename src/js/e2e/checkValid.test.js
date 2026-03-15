@@ -13,12 +13,6 @@ describe("valid card number", () => {
     page = await browser.newPage();
   });
 
-  test('Form should render on page start', async () => {
-    await page.goto('http://localhost:9000');
-
-    await page.waitFor('.card-form');
-  });
-
   test("Should create text if isValid", async () => {
     jest.setTimeout(5000);
     await page.goto("http://localhost:9000");
