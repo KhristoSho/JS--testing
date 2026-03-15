@@ -1,0 +1,58 @@
+.card-form__button {
+  padding: 0.5em;
+  background-color: hsl(42, 59%, 45%, 0.8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.card-form__button:hover {
+  background-color: hsla(42, 59%, 45%);
+}
+
+.card-form__input {
+  border-radius: 8px;
+  padding: 0.5em;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.card-examples {
+  display: flex;
+}
+
+.card-example {
+  width: 50px;
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-example:first-child {
+  margin-left: 0;
+}
+
+.card-example img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+.card-valid {
+  margin-top: -5px;
+  margin-left: 25px;
+  font-size: small;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
