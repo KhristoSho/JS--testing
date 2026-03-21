@@ -1,3 +1,3 @@
 export default {
-  testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/", "/e2e/"],
+  testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"],
 };
